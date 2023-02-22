@@ -75,7 +75,7 @@ const questionsList = useSelector(state => state.questionsReducer)
   
 
   const checkAuth = () => {
-    if(user===null){
+    if(User===null){
       alert("login or signup to ask a question")
       navigate('/Auth')
     }
