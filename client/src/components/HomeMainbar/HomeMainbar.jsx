@@ -8,7 +8,7 @@ const HomeMainbar = () => {
 
 const location = useLocation()
 
-const user=1; 
+const User = useSelector((state) => (state.currentUserReducer))
 
 const navigate= useNavigate()
 
